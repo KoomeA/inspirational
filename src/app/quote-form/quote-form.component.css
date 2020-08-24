@@ -1,0 +1,21 @@
+.form-quote {
+ margin-left: 10%;
+ margin-right: 10%;
+ padding: 6rem;
+ color: white;
+ font-size: 22px;
+
+}
+
+.form {
+    background-color: rgb(22, 126, 126);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+}
