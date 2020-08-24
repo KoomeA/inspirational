@@ -8,6 +8,7 @@ import { HeadingComponent } from './heading/heading.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FooterComponent } from './footer/footer.component';
 import { QuoteComponent } from './quote/quote.component';
+import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { QuoteComponent } from './quote/quote.component';
     HeadingComponent,
     QuoteFormComponent,
     FooterComponent,
-    QuoteComponent
+    QuoteComponent,
+    QuoteDetailsComponent
   ],
   imports: [
     BrowserModule,
