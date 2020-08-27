@@ -1,1 +1,5 @@
-<button class="btn btn-danger" (click)='quoteDelete(true)'><i class="fa fa-trash"></i></button>
+<p>
+    {{quote.quoteDescription}}
+    (posted on {{quote.postedDate|date|uppercase}}).
+ </p>
+ <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
