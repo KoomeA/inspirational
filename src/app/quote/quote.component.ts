@@ -11,13 +11,12 @@ export class QuoteComponent implements OnInit {
 
 
 
-   quotes:Quote[]=[
-    new Quote(1, 'Nelson Mandela', 'There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living.',  new Date(1990, 5, 10)),
-    new Quote(2, 'Mohandas Gandhi', 'Strength does not come from physical capacity. It comes from an indomitable will.', new Date(1950, 3, 23)),
-    new Quote(3, 'Rick Flores', 'We have to come for them before they come for us, it is that simple', new Date(2012, 8, 17)),
-
+  quotes:Quote[]=[
+    new Quote(1, 'Talk is cheap. Show me the code.','Author: Linus Torvalds, Submitted by: Koome,', new Date(2020,8,20)),
+    new Quote(2, "I'm not a great programmer; I'm just a good programmer with great habits.", 'Author: Kent Beck, Submitted by: Koome, ', new Date(2020,7,23)),
+    new Quote(3, 'Truth can only be found in one place: the code.', 'Author: Robert C. Martin, Submitted by: Edward,', new Date(2020, 3,3)),
   ];
-
+  
   toggleDetails(index){
     this.quotes[index].showQuoteDescription = !this.quotes[index].showQuoteDescription;
   }
